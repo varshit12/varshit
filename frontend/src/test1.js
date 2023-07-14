@@ -1,16 +1,15 @@
-import react from "react";
+import React from "react";
 
-function Varshi()
+function Giri()
 {
     return(
         <>
-        <div className="back">
+        <div className="back" >
            <h2 className="test"> Name of the Candidate: Tangudu Varshit </h2>
             <h2 className="test">  Contact Details : 9441796721</h2>                     
 
           
 <h2 className="h1">
-    
 	<li>Address:12-20-65/2 </li>
 	<li>Srikakulam-532001,</li>
 	<li>Mail id:varshithtangudu@gmail.com</li>
@@ -75,4 +74,4 @@ function Varshi()
     )
 }
 
-export default Varshi;
+export default Giri;

@@ -1,5 +1,6 @@
 *{
   background-color: rgb(146, 198, 230);
+
 }
 .test
 {
@@ -10,7 +11,9 @@
 .back
 {
   background-color: rgb(146, 198, 230);
+  
 }
+
 
 .h1{
   text-emphasis-color: rgb(181, 189, 193) ;
@@ -32,6 +35,6 @@ td {
   text-decoration-color: aqua;
 }
 .line{
-  bleed:width=5px;
   color: black;
+  background-color: black;
 }

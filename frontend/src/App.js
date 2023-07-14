@@ -1,15 +1,18 @@
 import logo from './logo.svg';
 import './App.css';
+import Sample from './sample';
+import {Route,Routes,BrowserRouter} from "react-router-dom";
+import Varshi from './test';
 
 function App() {
   return (
-    <div>
-        <h1>Varshit</h1>
-        <p>?p</p>
-        </div>
-        <div>
-          hfgj
-        </div>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<Varshi/>}/>
+        </Routes>
+      </BrowserRouter>
+  </>
   )
 }
 

@@ -1,40 +1,30 @@
-*{
-  background-color: rgb(146, 198, 230);
-
-}
-.test
-{
-  color: blue;
+.App {
   text-align: center;
 }
 
-.back
-{
-  background-color: rgb(146, 198, 230);
-  
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.image{
 
-.h1{
-  text-emphasis-color: rgb(181, 189, 193) ;
+  background-image: url(https://assets.thehansindia.com/h-upload/2021/12/19/1136464-roads-in-bengaluru.webp );
+  height:1000px;
+  width:1000px;
+  margin: auto;
+  background-repeat: no-repeat;
 }
-table {
-  border: 2px solid rgb(10, 10, 10);
-  width: 800px;
-  height: 200px;
-}
+.image1{
 
-th {
-  border-bottom: 1px solid black;
-}
-
-td {
-  text-align: center;
-}
-.tab{
-  text-decoration-color: aqua;
-}
-.line{
-  color: black;
-  background-color: black;
+  background-image: url(https://previews.123rf.com/images/andreanno/andreanno1905/andreanno190500032/123053468-plastic-and-other-debris-in-the-lake-the-concept-of-water-pollution-problems-of-environmental.jpg);
+  height:1000px ;
+  width:1000px;
+  margin: auto;
+  background-repeat: no-repeat;
 }

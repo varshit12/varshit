@@ -1,15 +1,24 @@
-import logo from './logo.svg';
+import Home from './Home';
+import Road from './Road';
+import Lakes from './Lake';
 import './App.css';
-import Giri from './test1';
-import {Route,Routes,BrowserRouter} from "react-router-dom";
-import Varshi from './test';
 
+import {BrowserRouter,Routes,Route} from "react-router-dom";
 function App() {
   return (
-    <>
-     <Giri/> 
-   </>
-  )
+    <> 
+
+      
+    <BrowserRouter>
+      <Routes>
+        
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/Road' element={<Road/>}></Route>
+        <Route path='/Lakes' element={<Lakes/>}></Route>
+      </Routes>
+    </BrowserRouter>
+    </>
+  );
 }
 
-export default App;
+export default App;

@@ -1,6 +1,7 @@
 import Home from './Home';
 import Road from './Road';
 import Lakes from './Lake';
+import { Input } from './Collection/Input/Input';
 import Calculator from './Calculator';
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
         <Route path='/Road' element={<Road/>}></Route>
         <Route path='/Lakes' element={<Lakes/>}></Route>
         <Route path='/Calculator' element={<Calculator/>}></Route>
+        <Route path='Input' element={<Input/>}></Route>
       </Routes>
     </BrowserRouter>
     </>

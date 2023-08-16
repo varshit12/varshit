@@ -18,9 +18,9 @@ const Home = () =>
     }
     return(
     <>
-        <button onClick={Submit1}>Home</button> 
-        <button onClick={Submit2}>Road</button> 
-        <button onClick={Submit3}>Lakes</button>
+        <button onClick={Submit1}>Home</button> <br/>
+        <button onClick={Submit2}>Road</button> <br/>
+        <button onClick={Submit3}>Lakes</button> <br/>
 
 
    </>

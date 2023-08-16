@@ -1,0 +1,102 @@
+/* Signup.css */
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  section {
+    /* background-image: url('/bg/10.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .signup-box {
+     position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    padding: 40px;
+    margin: 20px auto;
+    transform: translate(-50%, -55%);
+    background: transparent;
+    backdrop-filter: blur(3px);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, .6);
+    border-radius: 10px;
+  }
+  
+  .signup-box p {
+    margin: 0 0 30px;
+    padding: 0;
+    color: #2f002c;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .signup-box .user-box {
+    position: relative;
+  }
+  
+  .signup-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #2f002c;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #2f002c;
+    outline: none;
+    background: transparent;
+  }
+  
+  .signup-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #2f002c;
+    pointer-events: none;
+    transition: 0.5s;
+  }
+  
+  .signup-box .user-box input:focus ~ label,
+  .signup-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: #2f002c;
+    font-size: 12px;
+  }
+  
+  .signup-box form button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #2f002c;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .signup-box form button:hover {
+    background-color: #5e005c;
+  }
+  
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+  

@@ -18,7 +18,7 @@ export const Input = () =>
        
        
        
-       }catch(e)
+       }catch(e)    
        {
         console.log(e);
        }
@@ -27,7 +27,7 @@ export const Input = () =>
 return(
     <>
         <div className="rupesh">
-         <label>  <input type ="text"  onChange={(e) => setName(e.target.value)}/></label>
+         <label> Input Your Name<br/> <input type ="text"  onChange={(e) => setName(e.target.value)}/> </label>
             <button onClick = {Submit}>Submit</button>
         </div>
     </>

@@ -7,7 +7,7 @@
     const Anil = async () =>
     {
         try{
-            const res = await axios.post("http://localhost:8000/createpost/"+title+'/'+post);
+            const res = await axios.post("https://server-l7gb.onrender.com/"+title+'/'+post);
             
                if(res.data)
                {

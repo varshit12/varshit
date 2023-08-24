@@ -43,7 +43,7 @@ const Login = () => {
       <section>
         <div className="login-box">
           <h1>Login</h1>
-          <form >
+          <form onSubmit={handleSubmit}>
             <div className="user-box">
               <input
                 required

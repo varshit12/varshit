@@ -6,7 +6,7 @@ export const Input = () =>
     const Submit=async() =>
     {
        try{
-        const res = await axios.post("http://localhost:8000/input"+name);
+        const res = await axios.post("https://server-l7gb.onrender.com/input"+name);
         
            if(res.data)
            {

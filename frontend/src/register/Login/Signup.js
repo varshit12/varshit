@@ -11,7 +11,7 @@ export const Signup = () => {
     const [mobileNumber, setMobileNumber] = useState();
     const Submit=async() =>{
        try{
-        const result = await axios.post("http://localhost:8000/signup/"+firstname+'/'+lastname+'/'+dob+'/'+email+'/'+password+'/'+mobileNumber);
+        const result = await axios.post("https://server-l7gb.onrender.com/signup/"+firstname+'/'+lastname+'/'+dob+'/'+email+'/'+password+'/'+mobileNumber);
         console.log(result)
            if(result.data)
            {

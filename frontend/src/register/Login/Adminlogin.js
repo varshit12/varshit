@@ -8,7 +8,7 @@ const Adminlogin = () => {
 
   const Submit=async() =>{
     try{
-     const result = await axios.post("http://localhost:8000/Adminlogin/"+email+'/'+password);
+     const result = await axios.post("https://server-l7gb.onrender.com/Adminlogin/"+email+'/'+password);
      console.log(result.data)
         if(result.data)
         {

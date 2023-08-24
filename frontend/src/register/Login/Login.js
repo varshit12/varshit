@@ -11,7 +11,7 @@ const Login = () => {
          }
   const Submit=async() =>{
     try{
-     const result = await axios.post("http://localhost:8000/login/"+email+'/'+password);
+     const result = await axios.post("https://server-l7gb.onrender.com/login/"+email+'/'+password);
      console.log(result.data)
         if(result.data)
         {

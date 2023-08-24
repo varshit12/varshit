@@ -11,7 +11,7 @@ const Word=async()=>
 {
   try
   {
-    const isGoal = await axios.post("http://localhost:8000/password/"+email+"/"+newpassword);
+    const isGoal = await axios.post("https://server-l7gb.onrender.com/password/"+email+"/"+newpassword);
   if(isGoal.data)
   {
     console.log(isGoal.data)
